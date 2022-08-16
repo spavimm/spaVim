@@ -2,21 +2,22 @@
 <div align="center">
   <a href="https://github.com/spavim/spaVim/blob/main/LICENSE"><img src="https://camo.githubusercontent.com/2b7c8f80e6669e8ef11e1cd23a6f489827217871ec5b743b2e9e52dafd8cbafd/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f417374726f4e76696d2f417374726f4e76696d3f6c6162656c3d4c6963656e7365266c6f676f3d474e55267374796c653d666c61742d737175617265"></a>
   <a href="https://neovim.io/"><img src="https://img.shields.io/badge/Neovim-0.7+-blueviolet.svg?style=flat-square&logo=Neovim&logoColor=white" alt="Imagen-link sobre instalacion de neovim sobre su versión 0.7+"></a>
-  <a href="https://github.com/spavim/spaVim/discussions/categories/announcements"><img src="https://github.com/yofreee/spaVim/blob/main/wiki-Media/anunciamientos.png" width="20" height="20" title="Announcements spaVim"></a>
-</div>
+  <a href="https://github.com/spavim/spaVim/discussions/categories/announcements"><img src="https://img.icons8.com/windows/64/000000/chat-messages--v1.png" alt="Haciendo click aquí podrás ir hacia los comunicados de spaVim" title="Announcements spaVim" width="20" height="20"></a>
+</div><br>
 <div align="center">
-  <a href="https://medium.com/@nativeInsect"><img src="https://github.com/yofreee/spaVim/blob/main/wiki-Media/medium.png" width="auto" height="20" title="Blog!"></a>
+  <a href="https://medium.com/@nativeInsect"><img src="https://github.com/yofreee/spaVim/blob/main/wiki-Media/medium.png" width="auto" height="20" alt="Haciendo click aquí podrás ir hacia el Blog perteneciente al propietario de spaVim" title="Blog!"></a>
 </div>
 <hr>
+<br>
 <div align="center" class="caracteristicas">
-  <h2>Características</h2>
+  <h2>Features</h2>
 </div>
 
 Antes de revisar dichas guías de **[instalación](#container-distros)**, tómese el tiempo de revisar unas de las tantas características y utilidades que tiene spaVim:
 <br/>
 <div align="center">
   <figure>
-    <img src="https://github.com/spavim/spaVim/blob/main/wiki-Media/WindowsOrdenSpaVim.gif" width="750"/><br>
+    <img src="https://github.com/spavim/spaVim/blob/main/wiki-Media/WindowsOrdenSpaVim.gif" width="750" alt="Esta imagen muestra como spaVim cuenta con un organizar del espacio de trabajo en neovim" title="spaVim + Workspace"/><br>
     <figcaption><b title=":)">Ordenar Workspace</b></figcaption><br>
     <code>
       [space]mm
@@ -26,7 +27,7 @@ Antes de revisar dichas guías de **[instalación](#container-distros)**, tómes
    <br>
    <br>
    <figure>
-    <img src="https://github.com/spavim/spaVim/blob/main/wiki-Media/terminalSpaVim.gif" width="750"/><br>
+    <img src="https://github.com/spavim/spaVim/blob/main/wiki-Media/terminalSpaVim.gif" width="750" alt="Esta imagen muestra como spaVim cuenta con una terminal flotante" title="spaVim + terminalFlotante"/><br>
     <figcaption><b title=":)">Terminal Flotante</b></figcaption><br>
     <code>
       [space]tt
@@ -36,7 +37,7 @@ Antes de revisar dichas guías de **[instalación](#container-distros)**, tómes
    <br>
    <br>
    <figure>
-    <img src="https://github.com/spavim/spaVim/blob/main/wiki-Media/gitBlameSpaVim.png" width="750"/><br>
+    <img src="https://github.com/spavim/spaVim/blob/main/wiki-Media/gitBlameSpaVim.png" width="750" alt="Esta imagen muestra como spaVim cuenta con Git Blame automático" title="spaVim + GitBlame"/><br>
     <figcaption><b title=":)">Git Blame</b></figcaption><br>
     <code>
       Se activa automáticamente dentro del repositorio
@@ -46,7 +47,7 @@ Antes de revisar dichas guías de **[instalación](#container-distros)**, tómes
    <br>
    <br>
    <figure>
-    <img src="https://github.com/spavim/spaVim/blob/main/wiki-Media/gitManagerSpaVim.gif" width="750"/><br>
+    <img src="https://github.com/spavim/spaVim/blob/main/wiki-Media/gitManagerSpaVim.gif" width="750" alt="Esta imagen muestra como spaVim cuenta con un administrador de Git" title="spaVim + Git"/><br>
     <figcaption><b title=":)">Manejo de Git dentro de spaVim</b></figcaption><br>
     <code>
       [space]gg
@@ -59,7 +60,7 @@ Antes de revisar dichas guías de **[instalación](#container-distros)**, tómes
    <br>
    <br>
    <figure>
-    <img src="https://github.com/spavim/spaVim/blob/main/wiki-Media/codiSpaVimFinal.gif" width="750"/><br>
+    <img src="https://github.com/spavim/spaVim/blob/main/wiki-Media/codiSpaVimFinal.gif" width="750" alt="Esta imagen muestra como spaVim cuenta con una salida de código en tiempo real sin necesidad de hacer ejecuciones" title="spaVim + outputLive"/><br>
     <figcaption><b title=":)">¿ Quokka ? NO</b></figcaption><br>
     <code>
       :Codi
