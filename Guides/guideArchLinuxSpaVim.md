@@ -128,4 +128,4 @@
 
 **Le recomiendo instalar la fuente [Cascadia Code](https://github.com/microsoft/cascadia-code/releases) (CascadiaCodePLBold) y un tamaño de 10px en la configuración de su terminal**
 #
-En caso de errores post-instalación vaya a **[errores](https://github.com/yofreee/spaVim/blob/main/Errors/Errors.md)**, en donde posiblemente encontrará el suyo, en caso contrario **[formúlelo aquí](https://github.com/spavim/spaVim/discussions/categories/errors)** para que los demás o el propio owner del repositorio puedan ayudarlo
+En caso de errores post-instalación vaya a **[errores](https://github.com/spavim/spaVim/blob/main/Errors/Errors.md)**, en donde posiblemente encontrará el suyo, en caso contrario **[formúlelo aquí](https://github.com/spavim/spaVim/discussions/categories/errors)** para que los demás o el propio owner del repositorio puedan ayudarlo
