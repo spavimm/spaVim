@@ -2,9 +2,12 @@
 <div align="center">
   <a href="https://github.com/spavim/spaVim/blob/main/LICENSE"><img src="https://camo.githubusercontent.com/2b7c8f80e6669e8ef11e1cd23a6f489827217871ec5b743b2e9e52dafd8cbafd/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f417374726f4e76696d2f417374726f4e76696d3f6c6162656c3d4c6963656e7365266c6f676f3d474e55267374796c653d666c61742d737175617265"></a>
   <a href="https://neovim.io/"><img src="https://img.shields.io/badge/Neovim-0.7+-blueviolet.svg?style=flat-square&logo=Neovim&logoColor=white" alt="Imagen-link sobre instalacion de neovim sobre su versión 0.7+"></a>
+  <a href="https://github.com/spavim/spaVim/discussions/categories/announcements"><img src="https://github.com/yofreee/spaVim/blob/main/wiki-Media/anunciamientos.png" width="20" height="20" title="Announcements spaVim"></a>
+</div>
+<div align="center">
+  <a href="https://medium.com/@nativeInsect"><img src="https://github.com/yofreee/spaVim/blob/main/wiki-Media/medium.png" width="auto" height="20" title="Blog!"></a>
 </div>
 <hr>
-<div align="center" class="logoTelegram"><a href="#"><img src="https://img.icons8.com/color/344/telegram-app--v1.png" width="30" height="30"></a></div>
 <div align="center" class="caracteristicas">
   <h2>Características</h2>
 </div>
@@ -75,6 +78,6 @@ Antes de revisar dichas guías de **[instalación](#container-distros)**, tómes
 </div>
 <br>
 <div align="center" class="container-distros" display="grid">
-    <img src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/344/external-arch-linux-composed-of-nonfree-and-open-source-software-logo-bold-tal-revivo.png" alt="Aquí esta el logo de Arch linux" title="Arch-Linux y Derivados" width="50" height="50">
-    <img src="https://img.icons8.com/ios-filled/344/ubuntu.png" alt="Aquí esta el logo de Ubuntu" title="Ubuntu, Linux Mint" width="50" height="50">
+    <a href="https://github.com/yofreee/spaVim/blob/main/Guides/guideArchLinuxSpaVim.md"><img src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/344/external-arch-linux-composed-of-nonfree-and-open-source-software-logo-bold-tal-revivo.png" alt="Aquí esta el logo de Arch linux" title="Arch-Linux y Derivados" width="50" height="50"></a>
+    <a href="https://github.com/yofreee/spaVim/blob/main/Guides/guideUbuntuSpaVim.md"><img src="https://img.icons8.com/ios-filled/344/ubuntu.png" alt="Aquí esta el logo de Ubuntu" title="Ubuntu, Linux Mint" width="50" height="50"></a>
 </div>

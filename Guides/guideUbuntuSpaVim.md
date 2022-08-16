@@ -120,24 +120,45 @@
         sudo apt install yarn
         ```
     10) **Instalar [Lazygit](https://github.com/jesseduffield/lazygit)** (Administrador de git)
-            
-           **Antes**
-           
-        -   ```bash
-            sudo add-apt-repository ppa:lazygit-team/release
-            ```
-        -   ```bash
-            sudo apt-get update
-            ```
-        -   ```bash
-            sudo apt-get install lazygit
-            ```
-            
-           **Ahora(2022)**
-           
-           Dentro de este [archivo](https://github.com/yofreee/YourefreeProject/blob/main/instructionsLazygit.txt) estarán los pasos, diríjase a la API mencionada en el primer paso para cambiar de versión según el tag_name (por defecto debe cambiar 0-9 por la nueva versión)
         
-        Agradecimientos al creador de este [repositorio](https://github.com/dawidd6/lazygit-debian#ubuntu), que integró la instalación de lazygit en Ubuntu, ya que en su repositorio oficial no se encuentra
+        -   ```bash
+            LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | grep -Po '"tag_name": "v\K[0-35.]+')
+            ```
+
+
+        -   ```bash
+            curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/latest/download/lazygit_${LAZYGIT_VERSION}_Linux_x86_64.tar.gz"
+            ```
+
+
+        -   ```bash
+            sudo tar xf lazygit.tar.gz -C /usr/local/bin lazygit
+            ```
+
+
+        -   ```bash
+            lazygit --version
+            ```
+
+
+        -   ```bash
+            rm -rf lazygit.tar.gz
+            ```
+
+
+        -   ```bash
+            lazygit
+            ```
+
+
+            En caso de querer desinstalar Lazygit:
+        -   ```bash
+            sudo rm -rf /usr/local/bin/lazygit
+            ```
+
+            En esta **[API](https://api.github.com/repos/jesseduffield/lazygit/releases/latest)** se encontrará la última versión de Lazygit, en lo posible el Owner del repositorio se encargará de actualizarlo.
+
+        
     11) **Instalar [Glow](https://github.com/charmbracelet/glow)** (Markdown)
         ![gifRelacionadoConGlow](https://camo.githubusercontent.com/bd591b74af8a6991894c8a84ab8d48f05ce7f66975b325d31f6954c836ddab27/68747470733a2f2f73747566662e636861726d2e73682f676c6f772f676c6f772d312e332d747261696c65722d6769746875622e676966)
         -   ```bash
