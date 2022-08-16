@@ -27,7 +27,7 @@ Antes de revisar dichas guías de **[instalación](#container-distros)**, tómes
    <br>
    <br>
    <figure>
-    <img src="https://github.com/spavim/spaVim/blob/main/wiki-Media/terminalSpaVim.gif" width="750" alt="Esta imagen muestra como spaVim cuenta con una terminal flotante" title="spaVim + TerminalFlotante"/><br>
+    <img src="https://github.com/spavim/spaVim/blob/main/wiki-Media/terminalSpaVim.gif" width="750" alt="Esta imagen muestra como spaVim cuenta con una terminal flotante" title="spaVim + terminalFlotante"/><br>
     <figcaption><b title=":)">Terminal Flotante</b></figcaption><br>
     <code>
       [space]tt
