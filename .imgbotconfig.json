@@ -6,7 +6,4 @@
     "aggressiveCompression": "true", 
     "compressWiki": "true", 
     "minKBReduced": 500,
-    "prTitle" : "Optimize images", 
-    "prBody" : " {optimization_ratio}"
-                {optimization_details}"
 }
