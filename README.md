@@ -1,14 +1,21 @@
+<div align="right">
+  <a href="https://github.com/yofreee"><img alt="Website" src="https://img.shields.io/website?label=Owner&style=for-the-badge&up_color=%23F9F871&up_message=%F0%9F%91%91&url=https%3A%2F%2Fgithub.com%2Fyofreee"></a>
+</div>
+
 ![PreviewSpaVim](https://raw.githubusercontent.com/spavim/spaVim/main/wiki-Media/faceNvimG.png)
 <div align="center">
-  <a href="https://github.com/spavim/spaVim/blob/main/LICENSE"><img src="https://camo.githubusercontent.com/2b7c8f80e6669e8ef11e1cd23a6f489827217871ec5b743b2e9e52dafd8cbafd/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f417374726f4e76696d2f417374726f4e76696d3f6c6162656c3d4c6963656e7365266c6f676f3d474e55267374796c653d666c61742d737175617265"></a>
-  <a href="https://neovim.io/"><img src="https://img.shields.io/badge/Neovim-0.7+-blueviolet.svg?style=flat-square&logo=Neovim&logoColor=white" alt="Imagen-link sobre instalacion de neovim sobre su versión 0.7+"></a>
-  <a href="https://github.com/spavim/spaVim/discussions/categories/announcements"><img src="https://img.icons8.com/windows/64/000000/chat-messages--v1.png" alt="Haciendo click aquí podrás ir hacia los comunicados de spaVim" title="Announcements spaVim" width="20" height="20"></a>
-</div><br>
+  <a href="https://github.com/spavim/spaVim/blob/main/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/spavim/spaVim?color=%23F9F871&style=for-the-badge"></a>
+  <a href="https://neovim.io/"><img alt="Website" src="https://img.shields.io/website?label=Neovim&style=for-the-badge&up_color=%23F9F871&up_message=0.7%2B&url=https%3A%2F%2Fneovim.io%2F"></a>
+  <a href="https://github.com/yofreee/spaVim/discussions/categories/announcements"><img alt="Website" src="https://img.shields.io/website?label=Announcements&style=for-the-badge&up_color=%23F9F871&up_message=%F0%9F%93%A2&url=https%3A%2F%2Fgithub.com%2Fyofreee%2FspaVim%2Fdiscussions%2Fcategories%2Fannouncements"></a>
+</div>
 <div align="center">
-  <a href="https://medium.com/@nativeInsect"><img src="https://github.com/yofreee/spaVim/blob/main/wiki-Media/medium.png" width="auto" height="20" alt="Haciendo click aquí podrás ir hacia el Blog perteneciente al propietario de spaVim" title="Blog!"></a>
+  <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/spavim/spaVim/main?color=%23F9F871&style=for-the-badge">
+</div>
+<br>
+<div align="center">
+  <a href="https://medium.com/@nativeInsect"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Esta imagen te redirige al Blog del Owner alojado en Medium" title="Owner Blog!"></a>
 </div>
 <hr>
-<br>
 <div align="center" class="caracteristicas">
   <h2>Features</h2>
 </div>
