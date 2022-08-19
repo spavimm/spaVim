@@ -33,11 +33,7 @@ Antes de revisar dichas guías de **[instalación](#container-distros)**, tómes
 </div>
 
 <div align="center" class="sistemaOperativo">
-<<<<<<< HEAD
   <h2 id="container-distros">Guías de instalación terminadas</h2>
-=======
-  <h2 id="content-distros">Guías de instalación terminadas</h2>
->>>>>>> 1397f007d6c248ee553ea8c99eea5a7fb39d51aa
   <p><b>¡NO!</b> clone el repositorio de inmediato, dentro de las guías de instalación se encuentra la manera correcta de hacerlo</p>
 </div>
 
