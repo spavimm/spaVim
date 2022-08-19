@@ -41,7 +41,7 @@ Antes de revisar dichas guías de **[instalación](#container-distros)**, tómes
 
 | Distro | Guide |
 | ------ | ----- |
-| <br><div align="center" class="container-distros" display="grid"><a href="https://github.com/yofreee/spaVim/blob/main/Guides/guideArchLinuxSpaVim.md"><img src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/344/external-arch-linux-composed-of-nonfree-and-open-source-software-logo-bold-tal-revivo.png" alt="Aquí esta el logo de Arch linux" title="Arch-Linux y Derivados" width="50" height="50"></a><br> | Completed ✅ |
-| <br><div align="center"><a href="https://github.com/yofreee/spaVim/blob/main/Guides/guideUbuntuSpaVim.md"><img src="https://img.icons8.com/ios-filled/344/ubuntu.png" alt="Aquí esta el logo de Ubuntu" title="Ubuntu, Linux Mint" width="50" height="50"></a></div><br> | Completed ✅ |
+| <br><div align="center" class="container-distros" display="grid"><a href="https://github.com/spavim/spaVim/blob/main/Guides/guideArchLinuxSpaVim.md"><img src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/344/external-arch-linux-composed-of-nonfree-and-open-source-software-logo-bold-tal-revivo.png" alt="Aquí esta el logo de Arch linux" title="Arch-Linux y Derivados" width="50" height="50"></a><br> | Completed ✅ |
+| <br><div align="center"><a href="https://github.com/spavim/spaVim/blob/main/Guides/guideUbuntuSpaVim.md"><img src="https://img.icons8.com/ios-filled/344/ubuntu.png" alt="Aquí esta el logo de Ubuntu" title="Ubuntu, Linux Mint" width="50" height="50"></a></div><br> | Completed ✅ |
     
 </div>
