@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/spavim/spaVim/blob/main/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/spavim/spaVim?color=%23F9F871&style=for-the-badge"></a>
   <a href="https://neovim.io/"><img alt="Website" src="https://img.shields.io/website?label=Neovim&style=for-the-badge&up_color=%23F9F871&up_message=0.7%2B&url=https%3A%2F%2Fneovim.io%2F"></a>
-  <a href="https://github.com/yofreee/spaVim/discussions/categories/announcements"><img alt="Website" src="https://img.shields.io/website?label=Announcements&style=for-the-badge&up_color=%23F9F871&up_message=%F0%9F%93%A2&url=https%3A%2F%2Fgithub.com%2Fyofreee%2FspaVim%2Fdiscussions%2Fcategories%2Fannouncements"></a>
+  <a href="https://github.com/spavim/spaVim/discussions/categories/announcements"><img alt="Website" src="https://img.shields.io/website?label=Announcements&style=for-the-badge&up_color=%23F9F871&up_message=%F0%9F%93%A2&url=https%3A%2F%2Fgithub.com%2Fspavim%2FspaVim%2Fdiscussions%2Fcategories%2Fannouncements"></a>
 </div>
 <div align="center">
   <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/spavim/spaVim/main?color=%23F9F871&style=for-the-badge">
