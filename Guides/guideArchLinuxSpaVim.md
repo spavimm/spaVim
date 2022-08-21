@@ -42,6 +42,15 @@
         sudo pacman -S curl
         ```
     7)  **Instalar NVM (Node Version Manager)**
+        - Instalar nvm mediante AUR
+            ```sh
+            git clone https://aur.archlinux.org/nvm.git
+            ```
+        - Dentro de la carpeta nvm:
+            ```sh
+            makepkg -si
+            ```
+        
         - Instalaremos primero nodejs y npm:
             ```sh
             sudo pacman -S nodejs npm
