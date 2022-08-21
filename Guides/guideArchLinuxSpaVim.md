@@ -50,7 +50,6 @@
             ```sh
             makepkg -si
             ```
-        
         - Instalaremos primero nodejs y npm:
             ```sh
             sudo pacman -S nodejs npm
