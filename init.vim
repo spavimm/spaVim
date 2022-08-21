@@ -109,7 +109,7 @@ Plug 'prabirshrestha/asyncomplete-lsp.vim'
 Plug 'Shougo/ddc.vim'
 Plug 'shun/ddc-vim-lsp'
 
-" THEME
+" THEME 1
 Plug 'shaunsingh/moonlight.nvim'
 " https://github.com/shaunsingh/moonlight.nvim
 
@@ -199,7 +199,29 @@ Plug 'APZelos/blamer.nvim'
 " Inspirado en Gitlens para Nvim BLAMER
 " https://github.com/APZelos/blamer.nvim
 
+Plug 'norcalli/nvim-colorizer.lua'
+" Colorizador rápido de neovim
+" https://github.com/norcalli/nvim-colorizer.lua
+
 call plug#end()
+
+" +++++
+" COLORIZER NEOVIM
+lua << EOF
+  DEFAULT_OPTIONS = {
+	RGB      = true;         -- #RGB hex codes
+	RRGGBB   = true;         -- #RRGGBB hex codes
+	names    = true;         -- "Name" codes like Blue
+	RRGGBBAA = false;        -- #RRGGBBAA hex codes
+	rgb_fn   = false;        -- CSS rgb() and rgba() functions
+	hsl_fn   = false;        -- CSS hsl() and hsla() functions
+	css      = true;        -- Enable all CSS features: rgb_fn, hsl_fn, names, RGB, RRGGBB
+	css_fn   = false;        -- Enable all CSS *functions*: rgb_fn, hsl_fn
+	-- Available modes: foreground, background
+	mode     = 'background'; -- Set the display mode.
+}
+EOF
+
 
 " +++++
 " BLAMER
@@ -697,9 +719,8 @@ require("scrollbar").setup({
 })
 EOF
 
-
+" CONFIG THEMES
 colorscheme moonlight
-
 
 " +++++
 " jedi-vim
@@ -906,8 +927,8 @@ lua << EOF
 require'staline'.setup {
 	defaults = {
 		fg = "#ffffff",
-		bg = "none",
-		cool_symbol = "  ", -- (  ArchLinux), ( ⊞ Windows), ( ⌘ ¿Mac?) 
+                bg = "none",
+		cool_symbol = "", -- (  ArchLinux), ( ⊞ Windows), ( ⌘ ¿Mac?) 
 		left_separator = "《",
 		right_separator = "》",
 		full_path = false,
@@ -933,7 +954,7 @@ require'staline'.setup {
 	sections = {
 		left = {
 			'',
-			'-  YoureFreeVim  ',' ',
+			'-  spaVim  ',' ',
 			'right_sep','%p%%',' ','right_sep',"❖","file_size",
 		},
 		mid  = {'mode','branch'},
