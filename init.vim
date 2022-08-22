@@ -207,7 +207,23 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 " Markdown Preview
 " https://github.com/iamcco/markdown-preview.nvim
 
+Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
+" https://github.com/turbio/bracey.vim
+" Live-server html, css, javascript
+
 call plug#end()
+
+" +++++
+" LIVE-SERVER HTML, CSS, JAVASCRIPT
+" iniciar live-server
+noremap <leader>ll :Bracey<CR>
+
+" detener live-server
+noremap <leader>lq :BraceyStop<CR>
+
+" recargar página
+noremap <leader>lr :BraceyReload<CR>
+
 
 " +++++
 " MARKDOWN PREVIEW
