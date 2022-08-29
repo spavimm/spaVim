@@ -215,7 +215,23 @@ Plug 'filipdutescu/renamer.nvim', { 'branch': 'master' }
 " Renombrar
 " https://github.com/filipdutescu/renamer.nvim
 
+Plug 'kristijanhusak/vim-carbon-now-sh'
+" Carbon (capturar pedazos de código en imagen)
+" https://github.com/kristijanhusak/vim-carbon-now-sh
+
 call plug#end()
+
+
+" +++++
+" CARBON
+" Seleccionar texto en modo visual e ingresar el comando :CarbonNowSh, o
+" teclear el mapeo
+vnoremap <F5> :CarbonNowSh<CR>
+" let g:carbon_now_sh_base_url = 'http://localhost:3000'
+" let g:carbon_now_sh_browser = 'google-chrome'
+" let g:carbon_now_sh_options =
+"\ { 'ln': 'true',
+"  \ 'fm': 'Source Code Pro' }
 
 
 " +++++
