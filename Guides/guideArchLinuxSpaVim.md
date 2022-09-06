@@ -98,8 +98,15 @@
             ```sh
             pacman -S glow
             ```
-        > Ingrese el comando glow dentro de la carpeta en donde se encuentran sus archivos .md para visualizarlos 
- 
+        > Ingrese el comando glow dentro de la carpeta en donde se encuentran sus archivos .md para visualizarlos
+
+        <br>
+
+
+    12) **DAP - Debug Adapter Protocol**
+    
+    En el siguiente **[link](https://github.com/mfussenegger/nvim-dap/wiki/Debug-Adapter-installation)** encontrará lo necesario para instalar los depuradores de cada lenguaje de programación que necesita
+
 
 ### Clonar el [repositorio](https://github.com/spavim/spaVim)
 - Vaya a su carpeta .config
