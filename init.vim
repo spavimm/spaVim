@@ -112,6 +112,13 @@ Plug 'shun/ddc-vim-lsp'
 " THEME 1
 Plug 'shaunsingh/moonlight.nvim'
 " https://github.com/shaunsingh/moonlight.nvim
+" THEME 2
+Plug 'wuelnerdotexe/vim-enfocado'
+" https://github.com/wuelnerdotexe/vim-enfocado
+" THEME 3
+Plug 'embark-theme/vim', { 'as': 'embark', 'branch': 'main' }
+" https://github.com/embark-theme/vim
+
 
 " FZF
 " https://github.com/junegunn/fzf.vim
@@ -1057,8 +1064,34 @@ require("scrollbar").setup({
 })
 EOF
 
+
+" +++++
 " CONFIG THEMES
-colorscheme moonlight
+set t_Co=256
+colorscheme moonlight "1
+
+" colorscheme enfocado "2
+let g:enfocado_style = 'neon' " Available: nature or neon
+" NOTE: To see a list of all available plugins, run
+" `:h enfocado-colorscheme` at the vim commandline.
+let g:enfocado_plugins = [
+  \ 'cmp',
+  \ 'fern',
+  \ 'fzf',
+  \ 'gitgutter',
+  \ 'glyph-palette',
+  \ 'illuminate',
+  \ 'indent-blankline',
+  \ 'lsp',
+  \ 'matchup',
+  \ 'netrw',
+  \ 'plug',
+  \ 'startify',
+  \ 'visual-multi'
+  \ ]
+
+" colorscheme embark "3
+
 
 " +++++
 " jedi-vim
