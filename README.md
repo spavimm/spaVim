@@ -33,6 +33,20 @@ Antes de revisar dichas guías de **[instalación](#container-distros)**, tómes
 | <br><div align="center"><figure><img src="https://github.com/spavim/spaVim/blob/main/wiki-Media/codiSpaVimFinal.gif" width="750" alt="Esta imagen muestra como spaVim cuenta con una salida de código en tiempo real sin necesidad de hacer ejecuciones" title="spaVim + outputLive"/><br><figcaption><b title=":)">Output de tu código en tiempo real</b></figcaption><br><code>:Codi</code><br></figure></div><br> |
 | <br><div align="center"><figure><img src="https://i.postimg.cc/nzgyZnqh/Screenshot-2022-09-06-14-00-18-1366x768.png" width="750" alt="Esta imagen muestra como spaVim cuenta con Debugging" title="spaVim + debug"/><br><figcaption><b title=":)">Depurador 🐞</b></figcaption><br><kbd>space</kbd> + <kbd>B</kbd><kbd>B</kbd> = Breakpoint (add/delete) <br><kbd>space</kbd> + <kbd>B</kbd><kbd>C</kbd> = Breakpoint condicional (add) <br><kbd>F5</kbd> = toggle Debug<br><kbd>F10</kbd> = step Over<br><kbd>F11</kbd> = step Into<br><kbd>F12</kbd> = step Out<br><kbd>space</kbd> + <kbd>l</kbd><kbd>p</kbd> = LogPoint<br></figure></div><br> |
 
+<br><div align="center"><b title=":)">Themes</b>
+
+<div id="container-themes">
+<div id="content-themes1-2">
+<figure><img src="https://github.com/spavimm/spaVim/blob/main/wiki-Media/Screenshot_2022-09-12-11-53-14_1366x768.png" width="650" alt="Esta imagen muestra como spaVim cuenta con el tema Moonlight" title="spaVim + moonlight"/><br><figcaption><b title=":)">Moonlight</b></figcaption><br><code>:colorscheme moonlight</code><br>
+<br><figure><img src="https://github.com/spavimm/spaVim/blob/main/wiki-Media/Screenshot_2022-09-12-11-54-40_1366x768.png" width="650" alt="Esta imagen muestra como spaVim cuenta con el tema Enfocado" title="spaVim + enfocadoTheme"/><br><figcaption><b title=":)">Enfocado</b></figcaption><br><code>:colorscheme enfocado</code><br>
+</div>
+<div id="content-theme3">
+<br><figure><img src="https://github.com/spavimm/spaVim/blob/main/wiki-Media/Screenshot_2022-09-12-11-55-44_1366x768.png" width="650" alt="Esta imagen muestra como spaVim cuenta con el tema PeachPuff" title="spaVim + peachpuffTheme"/><br><figcaption><b title=":)">Peachpuff</b></figcaption><br><code>:colorscheme peachpuff</code><br>
+</div>
+</div>
+
+</div>
+
 </div>
 
 <div align="center" class="sistemaOperativo">
