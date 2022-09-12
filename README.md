@@ -37,11 +37,11 @@ Antes de revisar dichas guías de **[instalación](#container-distros)**, tómes
 
 <div id="container-themes">
 <div id="content-themes1-2">
-<figure><img src="https://github.com/spavimm/spaVim/blob/main/wiki-Media/Screenshot_2022-09-12-11-53-14_1366x768.png" width="375" alt="Esta imagen muestra como spaVim cuenta con el tema Moonlight" title="spaVim + moonlight"/><br><figcaption><b title=":)">Moonlight</b></figcaption><br><code>:colorscheme moonlight</code><br>
-<figure><img src="https://github.com/spavimm/spaVim/blob/main/wiki-Media/Screenshot_2022-09-12-11-54-40_1366x768.png" width="375" alt="Esta imagen muestra como spaVim cuenta con el tema Enfocado" title="spaVim + enfocadoTheme"/><br><figcaption><b title=":)">Enfocado</b></figcaption><br><code>:colorscheme enfocado</code><br>
+<figure><img src="https://github.com/spavimm/spaVim/blob/main/wiki-Media/Screenshot_2022-09-12-11-53-14_1366x768.png" width="650" alt="Esta imagen muestra como spaVim cuenta con el tema Moonlight" title="spaVim + moonlight"/><br><figcaption><b title=":)">Moonlight</b></figcaption><br><code>:colorscheme moonlight</code><br>
+<br><figure><img src="https://github.com/spavimm/spaVim/blob/main/wiki-Media/Screenshot_2022-09-12-11-54-40_1366x768.png" width="650" alt="Esta imagen muestra como spaVim cuenta con el tema Enfocado" title="spaVim + enfocadoTheme"/><br><figcaption><b title=":)">Enfocado</b></figcaption><br><code>:colorscheme enfocado</code><br>
 </div>
 <div id="content-theme3">
-<figure><img src="https://github.com/spavimm/spaVim/blob/main/wiki-Media/Screenshot_2022-09-12-11-55-44_1366x768.png" width="375" alt="Esta imagen muestra como spaVim cuenta con el tema PeachPuff" title="spaVim + peachpuffTheme"/><br><figcaption><b title=":)">Peachpuff</b></figcaption><br><code>:colorscheme peachpuff</code><br>
+<br><figure><img src="https://github.com/spavimm/spaVim/blob/main/wiki-Media/Screenshot_2022-09-12-11-55-44_1366x768.png" width="650" alt="Esta imagen muestra como spaVim cuenta con el tema PeachPuff" title="spaVim + peachpuffTheme"/><br><figcaption><b title=":)">Peachpuff</b></figcaption><br><code>:colorscheme peachpuff</code><br>
 </div>
 </div>
 
