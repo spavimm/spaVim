@@ -1418,8 +1418,8 @@ noremap <leader>qq :q!<cr>
 " Forzar el cierre del archivo reemplazando los dos puntos por el mapleader
 
 " Mapeo sobre cambios recientes
-noremap <leader>8 u<cr>
-noremap <leader>9 <C-r><cr>
+noremap <leader><Left> u<cr>
+noremap <leader><Right> <C-r><cr>
 
 " Mapeo plugInstall
 noremap <leader>PP :PlugInstall<cr>
