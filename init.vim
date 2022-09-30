@@ -1068,7 +1068,14 @@ EOF
 " +++++
 " CONFIG THEMES
 set t_Co=256
-colorscheme moonlight "1
+" colorscheme moonlight "1
+
+noremap <silent>1 :colorscheme enfocado<CR>
+noremap <silent>2 :colorscheme moonlight<CR>
+noremap <silent>3 :colorscheme peachpuff<CR>
+noremap <silent>4 :colorscheme embark<CR>
+noremap <silent>5 :colorscheme pink-panic<CR>
+
 
 " colorscheme enfocado "2
 let g:enfocado_style = 'neon' " Available: nature or neon
@@ -1091,6 +1098,7 @@ let g:enfocado_plugins = [
   \ ]
 
 " colorscheme embark "3
+" colorscheme pink-panic "4
 
 
 " +++++
