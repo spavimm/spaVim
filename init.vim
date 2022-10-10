@@ -234,6 +234,34 @@ Plug 'rcarriga/nvim-dap-ui'
 call plug#end()
 
 
+map <silent>0 :call CompileRunGcc()<CR>
+func! CompileRunGcc()
+exec "w"
+if &filetype == 'c'
+exec "!gcc % -o %<"
+exec "!time ./%<"
+elseif &filetype == 'cpp'
+exec "!g++ % -o %<"
+exec "!time ./%<"
+elseif &filetype == 'java'
+exec "!javac %"
+exec "!time java -cp %:p:h %:t:r"
+elseif &filetype == 'sh'
+exec "!time bash %"
+elseif &filetype == 'python'
+exec "!python %"
+elseif &filetype == 'html'
+exec "!firefox % &"
+elseif &filetype == 'go'
+exec "!go build %<"
+exec "!time go run %"
+elseif &filetype == 'mkd'
+exec "!~/.vim/markdown.pl % > %.html &"
+exec "!firefox %.html &"
+endif
+endfunc
+
+
 " +++++
 " DAP DEBUGGER
 lua << EOF
@@ -1070,6 +1098,13 @@ EOF
 set t_Co=256
 colorscheme moonlight "1
 
+noremap <silent>1 :colorscheme enfocado<CR>
+noremap <silent>2 :colorscheme moonlight<CR>
+noremap <silent>3 :colorscheme peachpuff<CR>
+noremap <silent>4 :colorscheme embark<CR>
+noremap <silent>5 :colorscheme pink-panic<CR>
+
+
 " colorscheme enfocado "2
 let g:enfocado_style = 'neon' " Available: nature or neon
 " NOTE: To see a list of all available plugins, run
@@ -1091,6 +1126,7 @@ let g:enfocado_plugins = [
   \ ]
 
 " colorscheme embark "3
+" colorscheme pink-panic "4
 
 
 " +++++
@@ -1418,8 +1454,8 @@ noremap <leader>qq :q!<cr>
 " Forzar el cierre del archivo reemplazando los dos puntos por el mapleader
 
 " Mapeo sobre cambios recientes
-noremap <leader>8 u<cr>
-noremap <leader>9 <C-r><cr>
+noremap <leader><Left> u<cr>
+noremap <leader><Right> <C-r><cr>
 
 " Mapeo plugInstall
 noremap <leader>PP :PlugInstall<cr>
