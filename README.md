@@ -1,5 +1,5 @@
 <div align="right">
-  <a href="https://github.com/yofreee"><img alt="Website" src="https://img.shields.io/website?label=Owner&style=for-the-badge&up_color=%23F9F871&up_message=%F0%9F%91%91&url=https%3A%2F%2Fgithub.com%2Fyofreee"></a>
+  <a href="https://github.com/HORTTIZ"><img alt="Website" src="https://img.shields.io/website?label=Owner&style=for-the-badge&up_color=%23F9F871&up_message=%F0%9F%91%91&url=https%3A%2F%2Fgithub.com%2Fyofreee"></a>
 </div>
 
 ![PreviewSpaVim](https://raw.githubusercontent.com/spavim/spaVim/main/wiki-Media/faceNvimG.png)
