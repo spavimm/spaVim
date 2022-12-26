@@ -251,7 +251,7 @@ exec "!time bash %"
 elseif &filetype == 'javascript'
 exec "!node %"
 elseif &filetype == 'python'
-exec "!python %"
+exec "!python3 %"
 elseif &filetype == 'html'
 exec "!firefox % &"
 elseif &filetype == 'go'
