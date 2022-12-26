@@ -248,6 +248,8 @@ exec "!javac %"
 exec "!time java -cp %:p:h %:t:r"
 elseif &filetype == 'sh'
 exec "!time bash %"
+elseif &filetype == 'javascript'
+exec "!node %"
 elseif &filetype == 'python'
 exec "!python %"
 elseif &filetype == 'html'
