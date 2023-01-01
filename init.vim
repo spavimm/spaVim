@@ -1438,9 +1438,9 @@ set autoread
 
 
 "" Split
-noremap <Leader>hh :<C-u>split<CR>
+noremap <Leader>hh :<C-u>vsplit<CR>
 " Crear un split horizontal
-noremap <Leader>vv :<C-u>vsplit<CR>
+noremap <Leader>vv :<C-u>split<CR>
 " Crear un split vertical
 
 " Mapeos personalizados por mi
