@@ -1,0 +1,180 @@
+Tecla Leader = space
+
+Modo insertar = i
+Salir del modo insertar = ii
+Modo normal (desde modo insertar)= ii
+Modo visual (desde modo normal)= v
+Modo comando (desde modo normal) = :
+
+Guardar y salir del editor
+    Modo normal = leader + iq
+Guardar y sobreescribir archivo
+    Modo normal = leader + ii
+Guardar sin guardar ningun cambio
+    Modo normal = leader + qq
+
+Ejecutar archivos c, cpp, java, sh, javascript, python, html, go, mkd = 0
+
+Dap debugger
+    Toggle breakpoint = leader + BB
+    Breakpoint condition = leader + BC
+    Log point message = leader + lp
+    Start debugger or Continue = F5
+    Step over = F10
+    Step into = F11
+    Step out = F12
+    Repl open = leader + dr
+    Run last = leader + dl
+
+
+CarbonNowSh (alternative to codeSnap)
+    Con el texto seleccionado en modo visual = F5
+
+
+Renamer ()
+    Modo Insertar
+        Con el cursor sobre el elemento = F2
+    Modo Normal
+        Con el cursor sobre el elemento = leader + nn
+    Modo Visual
+        Con el cursor sobre el elemento = leader + nn
+
+
+Live server html, css, javascript
+    Start = leader + ll
+    Stop = leader + lq
+    Reload = leader + lr
+
+
+Markdown preview = leader + mda
+Markdown preview Stop = leader + mdq
+Markdown preview Toggle = leader + mdd
+
+
+Cambiar de pestaña
+    BufferNext = Shift + Right
+    BufferPrevious = Shift + Left
+
+
+Lazygit
+    Crear o ver repositorio desde terminal (commits, ramas, merge, etc) = leader + gg
+
+
+Temas de color
+    Enfocado = 1
+    Moonlight = 2
+    Peachpuff = 3
+    Embark = 4
+    Pink-panic = 5
+
+
+Encontrar archivos con Telescope
+    Encontrar archivos = leader + ff
+    Live-grep = leader + fg
+    Encontrar buffers = leader + fb
+    Help-Tags = leader + fh
+
+
+Grep
+    Modo Normal = leader + f
+
+
+Splits configuración (redimensionar pestañas)
+    Alt + Up
+    Alt + Down
+    Alt + Right
+    Alt + Left
+
+
+Dividir la pantalla verticalmente
+    Modo Normal = leader + vv
+Dividir la pantalla horizontalmente
+    Modo Normal = leader + hh
+
+
+Cambiar de ventana o split (cuando la pantalla esta dividida en varios archivos)
+    Control + Up
+    Control + Down
+    Control + Right
+    Control + Left
+
+
+Cerrar buffers o ventanas
+    Modo normal = Control + q
+
+
+Deshacer cambios
+    Modo normal = leader + Left
+Rehacer cambios
+    Modo normal = leader + Right
+
+
+Instalar/Agregar Plugins recien agregados desde el archivo init.vim
+    Modo normal = leader + PP
+Actualizar Plugins ya agregados
+    Modo normal = leader + PU
+
+
+Git
+    GWrite = leader + ga
+    Git commit = leader + gc
+    Git push = leader + gsh
+    Git pull = leader + gll
+    Git blame = leader + gb
+    Git Diff split = leader + gd
+    Git remove = leader + gr
+
+
+Buscar palabra
+    Modo normal = /palabra-A-Buscar
+
+Navegar entre resultados de busqueda
+    Hacia adelante = n
+    Hacia atrás = N
+
+Reemplazar palabra
+    Modo comando = :%s/palabra/palabraDeReemplazo
+
+
+Abrir terminal dentro de spaVim
+    Modo normal = leader + tt
+
+
+Buscar y abrir archivo desde spaVim
+    Modo normal = leader + e
+
+
+Buscar, ingresa y abrir carpetas a encontrar
+    Modo normal = leader + te
+
+
+NerdTree
+    Abrir NerdTree = Control + n
+    NerdTree Toggle = Control + t
+    NerdTree Find = Control + f
+
+
+FZF
+    Encontrar archivo dentro de los archivos abiertos = leader + e
+    Encontrar buffer dentro de los buffers abiertos = leader + b
+    Acceder al historial de comandos ingresados = leader + y
+
+
+Reordenar los splits o ventanas abiertas
+    Modo normal = leader + mm
+
+
+Activar Codi (quokka alternative)
+    Modo comando = :Codi
+
+
+Activar/Desactivar modo Zen
+    Modo comando = :ZenMode
+
+
+Twilight (desenfoque de código)
+    Activar
+        Modo comando = :Twilight
+    Desactivar
+        Modo comando = :TwilightDisable 
+
