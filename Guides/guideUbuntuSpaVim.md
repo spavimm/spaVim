@@ -90,13 +90,13 @@
         
         -
             ```sh
-            curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | sh
+            curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
             ```
         
         -   Ahora vamos a activar la variable de entorno para NVM con el siguiente comando:
             
             ```sh
-            source ~/.shrc
+            source ~/.bashrc
             ```
         
         -   Verificamos que nvm este instalado:
