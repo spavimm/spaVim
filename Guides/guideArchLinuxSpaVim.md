@@ -50,21 +50,18 @@
             ```sh
             makepkg -si
             ```
-        - Instalaremos primero nodejs y npm:
+        - En raiz ingresamos:
             ```sh
-            sudo pacman -S nodejs npm
+            source /../usr/share/nvm/init-nvm.sh
             ```
-        - Ahora revisaremos cual versión es la última de nodejs (LTS)
-            ```sh
-            nvm ls
-            ```
-        - Instalamos la última versión que nos aparece como la actual (LTS)
+        - Instalamos nvm en su versión más actual o la versión más actual de nodejs
             ```sh
             nvm install <version>
             ```
-            >💡 En caso de tener una versión actual no LTS en uso (la versión no estable) Instale la LTS y mediante el siguiente comando escoga la LTS
+        
+        - Para conocer la ubicación de Node, ingresar en la termina:
             ```sh
-            nvm use <versionLTS>
+            nvm which current
             ```
     8)  **Instalar Ripgrep**
         De seguro conoce TELESCOPE (un buscador difuso altamente extensible sobre listas. Según la descripción en su repositorio)
