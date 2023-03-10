@@ -63,6 +63,12 @@
             ```sh
             nvm which current
             ```
+        
+        - Si npm genera problemas de instalación, ingresar:
+            ```sh
+            sudo pacman -S nodejs npm
+            ```
+            
     8)  **Instalar Ripgrep**
         De seguro conoce TELESCOPE (un buscador difuso altamente extensible sobre listas. Según la descripción en su repositorio)
         ![ImageDeTelescope](https://camo.githubusercontent.com/3d59e34d1f406890adf620546d3d97017ce0aacda034b1788c66fa872f192134/68747470733a2f2f692e696d6775722e636f6d2f5454546a6136742e676966)
